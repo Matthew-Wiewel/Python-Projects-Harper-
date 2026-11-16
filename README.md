@@ -1,2 +1,4 @@
 # Python-Projects-Harper-
-This is a repository dedicated to holding Python Projects focused on the world of AI from the duration of the Harper College AI Strategist Certificate program.
+This is a repository dedicated to holding Python Projects focused on the world of AI from the duration of the Harper College AI Strategist Certificate program. Following is a brief description of each file that is in the repository.
+
+Wiewel_SpamEmail : This is a simple case of using machine learning off of a limited dataset to classify potential emails as spam or not spam. In the beginning a sample data set is made followed by the process of splitting data into training, testing, and validation sets to create a model. After training the model another 4 emails, two spam and two not spam, were introduced to see how the model performed on a real-world scenario. In this case, due to the limited training data, the model learned incorrect features so had poor predictions as the non-spam emails opened with action words that it had learned to association with spam emails whereas the example spam emails did not include them, leading to false negatives.
